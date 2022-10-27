@@ -8,5 +8,15 @@
 </head>
 <body>
 	<h1>bank_main.jsp</h1>
+	
+	<h3>인증 완료</h3>
+	
+	<h2>액세서 토큰 : ${responseToken.access_token }</h2>
+	<h2>사용자 번호 : ${responseToken.user_seq_no }</h2>
+	<h2>token_type : ${responseToken.token_type }</h2>
+	<h2>expires_in : ${responseToken.expires_in }</h2>
+	<h2>refresh_token : ${responseToken.refresh_token }</h2>
+	<h2>scope : ${responseToken.scope }</h2>
+
 </body>
 </html>
